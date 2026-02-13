@@ -8,7 +8,7 @@ const taskSchema = new mongoose.Schema({
     description: {
         type: String,
         required: false
-    }
-});
+    },
+},{timestamps: true});
 
-const Task = mongoose.model("Task", taskSchema);
+module.exports = mongoose.model("Task", taskSchema);

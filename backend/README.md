@@ -12,6 +12,7 @@ Setup
 =====================database================================================================================
 
 >> the database is an online database that is MongoDB
->> the access link is there in the dotenv file of the project folder so the database is accessed through that link
+>> the access link is there in the .env file of the project folder so the database is accessed through that link
 
+>>if you want to use another mongo db vist https://www.mongodb.com/ and follow the steps to create and link your database to the server
 

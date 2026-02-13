@@ -1,7 +1,6 @@
-import { Router } from "express";
+const router  = require("express").Router();
 import router_controller from "../controllers/router_controller.js";
 
-const router = Router();
 
 //get all task
 router.get("/", router_controller.getAllTasks);
@@ -15,3 +14,4 @@ router.delete("/:id", router_controller.deleteTask);
 //update task
 router.put("/:id", router_controller.updateTask);
 
+module.exports = router;
