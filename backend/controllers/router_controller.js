@@ -13,7 +13,7 @@ module.exports ={
         }
     },
 
-    //get all tasks
+    //=================LIST TASK================================
     getAllTasks: async(req, res) =>{
         try {
             const allTasks = await task.find();
@@ -23,7 +23,7 @@ module.exports ={
         }
     },
 
-    //delete task
+    //=============DELETE TASK==================================
     deleteTask: async(req, res) =>{
         try {
             await task.findByIdAndDelete(req.params.id);

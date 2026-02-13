@@ -1,5 +1,5 @@
 const router  = require("express").Router();
-import router_controller from "../controllers/router_controller.js";
+const router_controller = require("../controllers/router_controller");
 
 
 //get all task
