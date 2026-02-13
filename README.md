@@ -2,7 +2,7 @@
 
 Setup
 >>create a project folder and place the index.js file and the controllers, models and routes folders
->>initial node in your project folder by running npm init y in your project folder , this will initialize the node with in the root folder
+>>initialize node in your project folder by running npm init y in your project folder
 
 =====================installing system dependencies =======================================================
 >>open the terminal and navigate to the root folder
