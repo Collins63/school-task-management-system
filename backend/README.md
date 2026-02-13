@@ -7,6 +7,7 @@ Setup
 =====================installing system dependencies =======================================================
 >>open the terminal and navigate to the root folder
 >>run this command to install dependencies -  npm install body-parser dotenv express mongoose
+>>in the root folder terminal type in node index.js to run the server
 
 
 =====================database================================================================================
