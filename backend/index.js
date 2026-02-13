@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
-// Use CommonJS require for routes
 const router = require('./routes/task_router');
 const bodyParser = require('body-parser');
 
